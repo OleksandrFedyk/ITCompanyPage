@@ -1,0 +1,381 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div, p, input, hr, button, form, span, a, ul, li {
+    box-sizing: border-box;
+    margin: 0;
+    
+} 
+
+span {
+    color: #415a8b;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.header {
+    background: url(../img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header_bar {
+    display: flex;
+    justify-content: row nowrap;
+    justify-content: flex-end;
+}
+
+.header_bar-item {
+   text-align: right;
+   text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+}
+
+.header_bar-item--text {
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 20px;
+    color: white;
+}
+
+#item-last {
+    padding-right: 0px;
+}
+
+.header_text {
+    margin-top: 219px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header_title {
+    padding-bottom: 63px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    max-width: 829px;
+    max-height: 111px;
+    margin: auto;
+}
+
+.header__button {
+    text-align: center;
+}
+
+.header__button-text {
+    padding: 13px 36px 15px 36px;
+    background-color: #4985FF;
+    border-radius: 30px;
+    max-width: 200px;
+    margin: auto;
+    color: white;
+    margin-bottom: 335px;
+}
+
+.service__title {
+    text-align: center;
+    color: black;
+    padding-top: 110px;
+    padding-bottom: 171px;
+    font-weight: 700;
+    font-size: 36px;
+    max-width: 739px;
+    margin: auto;
+}
+
+.service__items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.service__item {
+    display: flex;
+    justify-content: row nowrap;
+}
+
+.service__item-box {
+    margin-left: 52px;
+    margin-top: 15px;
+}
+
+.service__item-title {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.service__item-text {
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 222px;
+    max-height: 58px;
+}
+
+.service__item-img {
+    max-height: 40px;
+    max-width: 38px;
+}
+
+.service__button {
+    text-align: center;
+}
+
+.service__button-text {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 36px 15px 36px;
+    background-color: #4985FF;
+    border-radius: 30px;
+    max-width: 200px;
+    margin: auto;
+    color: white;
+    margin-bottom: 105px;
+}
+
+.about-us {
+    background-color:  #F6F6F8;
+    min-height: 797px;
+}
+
+.about-us__info {
+    padding-top: 95px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+
+.about-us__info-text--title {
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 40px;
+    padding-top: 52px;
+}
+
+.about-us__info-text {
+    max-width: 489px;
+}
+
+.about-us__info-text--description {
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.about-us__info-text--link {
+    text-decoration: underline;
+    color: #4985FF;
+}
+
+.about-us__numbers {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 836px;
+    margin: auto;
+}
+
+.about-us__numbers-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us__numbers-item--up {
+    display: flex;
+    justify-content: nowrap;
+}
+
+.number {
+    font-weight: 400;
+    font-size: 36px;
+    padding-left: 20px;
+    padding-bottom: 17px;
+}
+
+.numbers__item-up--photo {
+    padding-bottom: 17px;
+}
+
+.all-services {
+    height: 980px;
+    background: repeating-linear-gradient(#504dc2, #504dc2 50.4%, #ffffff 49.6%, #ffffff 100%);
+}
+
+.all-services__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-services__title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffffff;
+    max-width: 540px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    line-height: 52.66px;
+}
+
+.all-services__button {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 93px;
+}
+
+
+.all-services__button-text {
+    padding: 13px 36px 15px 36px;
+    background-color: #4985FF;
+    border-radius: 30px;
+    max-width: 200px;
+    margin: auto;
+    color: white;
+}
+
+.all-services__button:hover {
+    border-bottom: none;
+}
+
+.all-services__items {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 85px;
+}
+
+.all-services__items-item--title {
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.all-services__items-item--description {
+    line-height: 25px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 350px;
+}
+
+.all-services__items-item--link {
+    text-decoration: underline;
+    color: #4985FF;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.videosub {
+   max-height: 1082px;
+}
+
+.videosub__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52.6px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.videosub__text {
+    line-height: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.video {
+    padding-left: 70px;
+    margin-bottom: 85px;
+
+}
+
+.sub__title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 85px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    color: black;
+    text-align: center;
+}
+
+.sub__text {
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #999999;
+}
+
+.sub__box {
+    display: flex;
+    justify-content: nowrap;
+    padding-left: 310px;
+    margin-bottom: 35px;
+}
+
+.sub {
+    border-radius: 30px;
+    width: 299px;
+    height: 45px;
+    border: 1px solid #F2F2F2;
+    border-right: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+}
+
+.sub__button {
+    text-align: center;
+}
+
+.sub__button-text {
+    padding: 13px 36px 15px 25px;
+    background-color: #4985FF;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    max-width: 200px;
+    width: 190px;
+    margin: auto;
+    color: white;
+}
+
+.spam {
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20.5px;
+    color: #999999;
+    margin-bottom: 85px;
+}
+
+
+
